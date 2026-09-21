@@ -246,3 +246,8 @@ event.pairs.forEach(collision => {
    }
   });
 });
+
+// Play Again
+document.querySelector('#play-again').addEventListener('click', () => {
+    window.location.reload();
+});
